@@ -1,0 +1,484 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="assets/portfolio/favicon.png">
+    <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/style.css">
+    <title>Zainab Ajumobi - Software Developer Portfolio</title>
+</head>
+<body>
+    <header id="header">
+        <div>
+            <h1 title="Zainab A">Zainab A</h1>
+            <nav class="large-screen">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li title="Switch from Light/Dark Mode"><i class="bi bi-moon" id="themeIconDesktop" onclick="switchTheme(desktop)"></i></li>
+                </ul>
+            </nav>
+
+            <!-- Mobile menu icon -->
+            <i class="bi bi-list" id="icon" onclick="toggleNav()"></i>
+        </div>
+    </header>
+
+    <!-- Mobile menu -->
+    <div class="mobile-nav">
+        <nav class="mobile-screen">
+            <ul>
+                <li><a href="#home" onclick="toggleNav()">Home</a></li>
+                <li><a href="#skills" onclick="toggleNav()">Skills</a></li>
+                <li><a href="#portfolio" onclick="toggleNav()">Portfolio</a></li>
+                <li><a href="#contact" onclick="toggleNav()">Contact</a></li>
+                <li title="Switch from Light/Dark Mode"><i class="bi bi-moon" id="themeIconMobile" onclick="switchTheme(mobile)"></i></li>
+            </ul>
+        </nav>
+    </div>
+
+    <!-- Home -->
+    <section id="home" class="flex">
+        <div class="text">
+            <h2>Hi there, I'm Zainab</h2>
+            <p>Software Developer</p>
+            <p>
+                I have proficiency in building highly functional, mobile responsive, user friendly 
+                and aesthetically pleasing user interfaces and applications on the web.
+            </p>
+            <a href="assets/portfolio/Zainab Ajumobi - Frontend & UI Developer - Resume.pdf" download="Zainab Ajumobi's CV" target="_blank">
+                <button>Download My CV <i class="bi bi-cloud-download"></i></button>
+            </a>
+        </div>
+        <div class="image">
+            <div>
+                <img src="assets/portfolio/zee.png" alt="Picture of me">
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills">
+       <h2>My Skills</h2>
+       <p>Checkout my stack and the technologies I work with&#128525;</p>
+       <div class="flex">
+            <div class="text">
+                <p>
+                    I am a self and community taught full stack web developer who's passionate about software development and the world of IT. 
+                    I love writing code to solve challenges, and I am keen on learning more about web programming and software engineering.
+                    <br>
+                    <br>
+                    I have practical knowledge of core web development languages, tools, frameworks, SEO principles and accessibility.
+                </p>
+                <p>
+                    I write quality code, replicate UI/UX designs, implement logic, and fix bugs with the listed technologies.
+                </p>
+            </div>
+            <div class="image">
+                <div class="stacks">
+                    <div class="stack">
+                        <i class="fab fa-html5"></i>
+                        HTML
+                    </div>
+                    <div class="stack">
+                        <i class="fab fa-css3-alt"></i>
+                        CSS
+                    </div>
+                    <div class="stack">
+                        <i class="fab fa-square-js"></i>
+                        JavaScript
+                    </div>
+                    <div class="stack">
+                        <i class="bx bxl-typescript">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"
+                                style="fill: rgba(255, 255, 255, 1);transform: ;msFilter:;">
+                                <path
+                                    d="M19.24 3H4.76A1.76 1.76 0 0 0 3 4.76v14.48A1.76 1.76 0 0 0 4.76 21h14.48A1.76 1.76 0 0 0 21 19.24V4.76A1.76 1.76 0 0 0 19.24 3zm-5.8 10h-2.25v6.44H9.4V13H7.15v-1.46h6.29zm5.8 5.28a1.71 1.71 0 0 1-.67.74 3 3 0 0 1-1 .39 5.81 5.81 0 0 1-1.2.12 7 7 0 0 1-1.23-.11 4.52 4.52 0 0 1-1-.33v-1.71l-.06-.06h.06v.07a3.41 3.41 0 0 0 1 .54 3.06 3.06 0 0 0 1.13.2 2.58 2.58 0 0 0 .6-.06 1.47 1.47 0 0 0 .42-.17.75.75 0 0 0 .25-.25.69.69 0 0 0-.06-.74 1.24 1.24 0 0 0-.35-.33 3.12 3.12 0 0 0-.53-.3l-.67-.28a3.57 3.57 0 0 1-1.37-1 2 2 0 0 1-.46-1.33 2.16 2.16 0 0 1 .24-1.06 2.09 2.09 0 0 1 .66-.71 2.88 2.88 0 0 1 1-.42 5.11 5.11 0 0 1 1.19-.13 7 7 0 0 1 1.09.07 4.53 4.53 0 0 1 .88.23v1.65a2.42 2.42 0 0 0-.42-.24 3.58 3.58 0 0 0-.49-.17 3 3 0 0 0-.49-.1 2.45 2.45 0 0 0-.46 0 2.29 2.29 0 0 0-.56.06 1.54 1.54 0 0 0-.43.16.78.78 0 0 0-.26.25.63.63 0 0 0-.09.33.62.62 0 0 0 .1.35 1.19 1.19 0 0 0 .3.29 2.15 2.15 0 0 0 .46.28l.63.28a6.56 6.56 0 0 1 .84.42 2.65 2.65 0 0 1 .64.49 1.79 1.79 0 0 1 .42.63 2.48 2.48 0 0 1 .14.85 2.68 2.68 0 0 1-.25 1.08z">
+                                </path>
+                            </svg>
+                        </i>
+                        TypeScript
+                    </div>
+                    <div class="stack">
+                        <i class="fab fa-vuejs"></i>
+                        Vue.js
+                    </div>
+                    <div class="stack">
+                        <i class="bx bxl-vuejs"></i>
+                        Vuex/Pinia
+                    </div>
+                    <div class="stack">
+                        <i class="bi bi-caret-up"></i>
+                        Nuxt.js
+                    </div>
+                    <div class="stack">
+                        <i class="bx bxl-tailwind-css"></i>
+                        TailwindCSS
+                    </div>
+                    <div class="stack">
+                        <i class="fab fa-sass"></i>
+                        SASS
+                    </div>
+                    <div class="stack">
+                        <i class="bx bxl-firebase"></i>
+                        Firebase
+                    </div>
+                    <div class="stack">
+                        <i class="bx bxl-graphql">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"
+                                style="fill: rgba(255, 255, 255, 1);transform: ;msFilter:;">
+                                <path
+                                    d="M20.1 14.56a2.07 2.07 0 0 0-.47-.18V9.62a1.64 1.64 0 0 0 .48-.18 1.78 1.78 0 0 0-1.78-3.09 1.62 1.62 0 0 0-.41.32l-4.11-2.38a1.7 1.7 0 0 0 .07-.51 1.78 1.78 0 0 0-3.56 0 1.7 1.7 0 0 0 .07.51L6.28 6.66a1.58 1.58 0 0 0-.41-.31 1.78 1.78 0 0 0-1.78 3.09 1.64 1.64 0 0 0 .48.18v4.76a2.07 2.07 0 0 0-.47.18 1.78 1.78 0 1 0 1.78 3.09 1.72 1.72 0 0 0 .4-.31l4.11 2.37a1.7 1.7 0 0 0-.07.51 1.78 1.78 0 0 0 3.56 0 1.69 1.69 0 0 0-.09-.56l4.09-2.36a1.7 1.7 0 0 0 .44.35 1.78 1.78 0 1 0 1.78-3.09zM6.72 15.69a1.72 1.72 0 0 0-.19-.47 1.53 1.53 0 0 0-.31-.4l5.38-9.33a1.82 1.82 0 0 0 1 0l5.4 9.33a1.53 1.53 0 0 0-.31.4 1.72 1.72 0 0 0-.19.47zM17.5 7.4a1.81 1.81 0 0 0 .17 1.38 1.75 1.75 0 0 0 1.12.84v4.76h-.07l-5.39-9.31.05-.07zM10.82 5a.12.12 0 0 0 0 .05L5.48 14.4h-.07V9.62a1.75 1.75 0 0 0 1.12-.84A1.81 1.81 0 0 0 6.7 7.4zm2.6 14a1.78 1.78 0 0 0-1.32-.58 1.75 1.75 0 0 0-1.28.54L6.7 16.6v-.06h10.78v.11z">
+                                </path>
+                            </svg>
+                        </i>
+                        GraphQL
+                    </div>
+                    <div class="stack">
+                        <i class="fab fa-git-alt"></i>
+                        Version Control
+                    </div>
+                    <div class="stack">
+                        <img src="assets/skills/jest.svg" alt="Jest Logo Icon from Icon 54">
+                        Jest
+                    </div>
+                    <div class="stack">
+                        Vitest
+                    </div>
+                    <div class="stack">
+                        <i class="bx bxl-php"></i>
+                        PHP
+                    </div>
+                    <div class="stack">
+                        <i class="bx bxl-sketch"></i>
+                        Laravel
+                    </div>
+                    <div class="stack">
+                        <i class="bi bi-database"></i>
+                        MySQL
+                    </div>
+                    <div class="stack">
+                        RESTful APIs 
+                    </div>
+                    <div class="stack">
+                        <i class="bi bi-caret-up"></i>
+                        Postman
+                    </div>
+                </div>
+            </div>
+       </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio">
+        <h2>My Portfolio</h2>
+        <p>Here are some of the projects I have built&#128187;</p>
+
+        <!-- Slider main container -->
+        <div class="swiper">
+            <!-- Additional required Swiper wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slide 1 -->
+                <div class="swiper-slide project">
+                    <div class="photo">
+                        <img src="assets/project_images/carterr.png" alt="E commerce app project image" >
+                    </div>
+                    <div class="description">
+                        <h3>CARTERR</h3>
+                        <p>
+                            An ecommerce web application built with Vue.js, Vuex, Vanilla CSS & Firebase as the backend.
+                            It has a well designed and implemented user interface and 
+                            features for a seamless online shopping experience, as well as payment integration using Paystack.
+                        </p>
+                        <div>
+                            <a href="https://carterr.netlify.app">
+                                Live<i class="bi bi-globe2"></i>
+                            </a>
+                            <a href="https://github.com/sheismo/carterr-ecommerce">
+                                GitHub<i class="bi bi-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Slide 2 -->
+                <div class="swiper-slide project">
+                    <div class="photo">
+                        <img src="assets/project_images/shownet.png" alt="TV Show search project image" >
+                    </div>
+                    <div class="description">
+                        <h3>SHOWNET</h3>
+                        <p>
+                            This is a web application that allows you to search for and get information about all available TV shows and series
+                            on the go. Integrated the TV maze API, built with the web's super trio - Vanilla JavaScript, HTML and CSS.
+                        </p>
+                        <div>
+                            <a href="https://shownet-search.netlify.app/">
+                                Live<i class="bi bi-globe2"></i>
+                            </a>
+                            <a href="https://github.com/sheismo/shownet">
+                                GitHub<i class="bi bi-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Slide 3 -->
+                <div class="swiper-slide project">
+                    <div class="photo">
+                        <img src="assets/project_images/breef.png" alt="URL shortener project image">
+                    </div>
+                    <div class="description">
+                        <h3>BREEF</h3>
+                        <p>
+                            This URL shortener has a simple yet visually captivating UI with intuitive functionality and great
+                            user experience. Great for simplifying link shortening tasks, built with Vue.js composition API 
+                            and the infamous Tailwind CSS.
+                        </p>
+                        <div>
+                            <a href="https://breef.netlify.app">
+                                Live<i class="bi bi-globe2"></i>
+                            </a>
+                            <a href="https://github.com/sheismo/my-breef">
+                                GitHub<i class="bi bi-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Slide 4 -->
+                <div class="swiper-slide project">
+                    <div class="photo">
+                        <img src="assets/project_images/weather-app.png" alt="Weather app project image">
+                    </div>
+                    <div class="description">
+                        <h3>MY WEATHER APP</h3>
+                        <p>
+                            An application that gives you visual and textual information on the current time, date and weather conditions 
+                            of any city in the world. All you have to do is type in a city name and get accurate results powered by Open 
+                            Weather API. Of course, it was built with the progressive JavaScript framework.
+                        </p>
+                        <div>
+                            <a href="https://sheismo.github.io/my-weather-app/">
+                                Live<i class="bi bi-globe2"></i>
+                            </a>
+                            <a href="https://github.com/sheismo/my-weather-app">
+                                GitHub<i class="bi bi-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Slide 5 -->
+                <div class="swiper-slide project">
+                    <div class="photo">
+                        <img src="assets/project_images/monster-game.png" alt="Monster game project image">
+                    </div>
+                    <div class="description">
+                        <h3>MONSTER SLAYER GAME</h3>
+                        <p>
+                            A simple, free and fun online game you play with your computer - has attack, special attack and healing features.
+                            You get to see your battle log and  play as many times as you want. Made with Vue.js
+                        </p>
+                        <div>
+                            <a href="https://sheismo.github.io/monster-slayer-game">
+                                Live<i class="bi bi-globe2"></i>
+                            </a>
+                            <a href="https://github.com/sheismo/monster-slayer-game">
+                                GitHub<i class="bi bi-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Slide 6 -->
+                <div class="swiper-slide project">
+                    <div class="photo">
+                        <img src="assets/project_images/reno-homes.png" alt="Reno Homes project image">
+                    </div>
+                    <div class="description">
+                        <h3>RENO HOMES</h3>
+                        <p>
+                            A simple modern landing page for an interior design company. 
+                            designed by Deraah(@stuhna on Twitter). I coded this with HTML
+                            & CSS with a sprinkle of my beloved Javascript.
+                        </p>
+                        <div>
+                            <a href="https://sheismo.github.io/interior-design-landing/">
+                                Live<i class="bi bi-globe2"></i>
+                            </a>
+                            <a href="https://github.com/sheismo/interior-design-landing">
+                                GitHub<i class="bi bi-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Slide 7 -->
+                <div class="swiper-slide project">
+                    <div class="photo">
+                        <img src="assets/project_images/nse.png" alt="NSE wesbite project image">
+                    </div>
+                    <div class="description">
+                        <h3>NSE WEBSITE</h3>
+                        <p>
+                            Official website of the Nigerian Society of Engineers, Eastern Province Branch.
+                            Features a landing page, and internal facing admin dashboard and a little more.
+                            Crafted with PHP, MySQL, JavaScript, HTML & TailwindCSS.
+                        </p>
+                        <div>
+                            <a href="https://nsesaudi.org.ng/">
+                                Live<i class="bi bi-globe2"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Slide 8 -->
+                <div class="swiper-slide project">
+                    <div class="photo">
+                        <img src="assets/project_images/luxe.png" alt="Weather app project image">
+                    </div>
+                    <div class="description">
+                        <h3>LUXE FASHION</h3>
+                        <p>
+                            Fancy landing page for a fashion brand coded using HTML/CSS and a sprinkle of JavaScript.
+
+                        </p>
+                        <div>
+                            <a href="https://sheismo.github.io/luxe-fashion">
+                                Live<i class="bi bi-globe2"></i>
+                            </a>
+                            <a href="https://github.com/sheismo/luxe-fashion">
+                                GitHub<i class="bi bi-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>    
+
+            <!-- navigation buttons -->
+            <div class="swiper-button-prev control"></div>
+            <div class="swiper-button-next control"></div>
+
+            <!-- pagination -->
+            <div class="swiper-pagination"></div>
+        </div>    
+    </section>
+
+
+    <!-- Banner -->
+    <section id="banner">
+        <div class="my-banner">
+            <div class="flex">
+                <div class="text">
+                    <h3>Let's talk about your next software project or that developer role you're hiring for.</h3>
+                    <p>Click this cute button below to send me an email.</p>
+                    <button>
+                        <a href="mailto:ajumobizainab@gmail.com">Shoot a mail</a>
+                    </button>
+                </div>
+            
+                <div class="image">
+                    <img src="assets/portfolio/conversation-image.svg" alt="SVG image of people having a conversation">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact ME  -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Reach out to me via email or send me a message&#9997;</p>
+        <div class="contact-info">
+            <div>
+                <i class="bi bi-envelope-at-fill"></i>
+                <div>
+                    <p>Email</p>
+                    <p>ajumobizainab@gmail.com</p>
+                </div>
+            </div>
+            <div>
+                <i class="bi bi-geo-alt-fill"></i>
+                <div>
+                    <p>Location</p>
+                    <p>Ibadan & Lagos, Nigeria</p>
+                </div>
+            </div>
+        </div>
+        <div class="contact-form">
+            <form action="" method="post">
+                <div class="form-flex">
+                    <div>
+                        <label for="name"></label>
+                        <input type="text" id="name" name="username" autofocus required placeholder="Your Name...">
+                    </div>
+                    <div>
+                        <label for="email"></label>
+                        <input type="email" id="email" name="useremail" autofocus required placeholder="Your Email...">
+                    </div>
+                </div>
+                <div>
+                    <label for="message"></label>
+                    <textarea name="message" id="message" cols="20"  rows="8" placeholder="Your Message..."></textarea>
+                </div>
+                <div>
+                    <p id="feedback"></p>
+                </div>
+                <div>
+                    <button type="button" name="submit" onclick="sendEmail()">Send Message</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="foot">
+            <div>
+                <a href="mailto:ajumobizainab@gmail.com" target="_blank">
+                    <i class="bi bi-envelope-fill"></i>
+                    <span>Email</span>
+                </a>
+            </div>
+
+            <div>
+                <a href="https://github.com/sheismo" target="_blank">
+                    <i class="bi bi-github"></i>
+                    <span>GitHub</span>
+                </a>
+            </div>
+
+            <div>
+                <a href="https://ng.linkedin.com/in/zainab-ajumobi-305026192" target="_blank">
+                    <i class="bi bi-linkedin"></i>
+                    <span>LinkedIn</span>
+                </a>
+            </div>
+
+            <div>
+                <a href="https://twitter.com/zaenab_x" target="_blank">
+                    <i class="bi bi-twitter"></i>
+                    <span>Twitter</span>
+                </a>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>Made with &#10084;&#65039; by Zainab Ajumobi. &copy;<span id="year">2023</span></p>
+            <!-- <p>Icons sourced from FontAwesome Icons Bootstrap Icons & Box Icons.</p> -->
+        </div>
+    </footer>
+
+    <button onclick="scrollToTop()" class="scroll" id="scroll">
+        <i class="bi bi-arrow-up"></i>
+    </button>
+
+    <script src="https://kit.fontawesome.com/107e30927a.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init("UzANDnaBgiTgfWNKo");
+        })();
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
