@@ -607,6 +607,10 @@ section:first-of-type {
         width: 45%;
         padding: 8px;
     }
+
+    .swiper-pagination {
+        margin-top: 100px !important;
+    }
 }
 
 /* Banner Section */
