@@ -374,6 +374,10 @@ section:first-of-type {
     #home p:first-of-type {
         font-size: 1.8rem;
     }
+
+    #home img {
+        height: 400px;
+    }
 }
 
 /* Skills section */
