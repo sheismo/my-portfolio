@@ -139,10 +139,10 @@ function sendEmail() {
       .then(function(response) {
         //  console.log('SUCCESS!', response.text);
         clearForm();
-        sendFeedback('success', 'Thank you for sending a message, will be in contact shortly!')
+        sendFeedback('success', ' <i class="bi bi-check2-circle"></i> Thank you for sending a message, will be in contact shortly!')
       }, function(error) {
         //  console.log('Failed to send message...', error);
-         sendFeedback('error', 'Failed to send message,try again later!');
+         sendFeedback('error', ' <i class="bi bi-envelope-exclamation"></i> Failed to send message, try again later!');
       });
   } else {
     sendFeedback('error', 'Please fill all fields correctly then send message!');
